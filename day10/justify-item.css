@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.grid-container{
+    height: 800px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px; 
+    grid-template-rows: 200px 200px;
+    /* grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    grid-auto-flow: row; */
+    /* justify-items: center;
+    align-items: center; */
+    /* place-items: center; */
+    justify-content: center;
+    align-content: center;
+}
+.item{
+    width: 65px;
+    height: 65px;
+    padding: 24px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
